@@ -267,7 +267,7 @@ function Peer(options) {
             this.broadcaster = options.broadcaster;
         }
     } else {
-        this.pc.addStream(this.parent.localStream);
+        //this.pc.addStream(this.parent.localStream);
     }
 
     if (this.parent.config.enableDataChannels && webrtc.dataChannel) {
